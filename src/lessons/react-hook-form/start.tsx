@@ -7,19 +7,19 @@ const UseReactHookForm = () => {
       <h2>Login</h2>
       <form>
         <div>
-          <input type="text" name="firstName" />
+          <input type="text" name="" />
           <label>First Name</label>
         </div>
         <div>
-          <input type="text" name="lastName" />
+          <input type="text" name="" />
           <label>Last Name</label>
         </div>
         <div>
-          <input type="email" name="email" />
+          <input type="email" name="" />
           <label>Email</label>
         </div>
         <div>
-          <input type="password" name="password" />
+          <input type="password" name="" />
           <label>Password</label>
         </div>
         <button>Submit!</button>
