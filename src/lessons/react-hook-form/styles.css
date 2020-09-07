@@ -3,12 +3,9 @@ body {
 }
 
 section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 60px auto;
   width: 400px;
   padding: 40px;
-  transform: translate(-50%, -50%);
   background: rgba(0,0,0,.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -49,7 +46,8 @@ section div label {
   transition: .5s;
 }
 
-section div input:focus + label {
+section div input:focus + label,
+section div input:valid + label  {
   top: -20px;
   left: 0;
   color: #f66aa4;

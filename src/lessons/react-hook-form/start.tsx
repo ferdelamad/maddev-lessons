@@ -4,7 +4,7 @@ import './styles.css';
 const UseReactHookForm = () => {
   return (
     <section>
-      <h2>Login</h2>
+      <h2>Register</h2>
       <form>
         <div>
           <input type="text" name="" />
